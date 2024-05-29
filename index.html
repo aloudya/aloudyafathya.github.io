@@ -38,9 +38,6 @@
         font-style: normal;
       }
 
-      /* // <uniquifier>: Use a unique and descriptive class name */
-      /* // <weight>: Use a value from 200 to 1000 */
-
       .nunito {
         font-family: "Nunito", sans-serif;
         font-optical-sizing: auto;
@@ -65,6 +62,11 @@
         min-height: 100vh;
       }
 
+      #hero {
+        width: 100%;
+        height: 100vh;
+      }
+
       .heading {
         font-family: "Lilita One", sans-serif;
         color: #0a0a0a;
@@ -85,22 +87,6 @@
         padding-top: 10px;
         width: 100%;
       }
-
-      /* .line-above {
-        position: absolute;
-        right: 0px;
-        width: 100%;
-        height: 2px;
-        background-color: #0a0a0a;
-      } */
-
-      /* .bi-record2 {
-        position: absolute;
-        top: -10px;
-        left: 3px;
-        font-size: xx-large;
-        color: rgb(215, 41, 41);
-      } */
 
       #undangan p {
         max-width: 900px;
@@ -123,6 +109,21 @@
         background-position: right center; /* change the direction of the change here */
         color: #0a0a0a;
         text-decoration: none;
+      }
+
+      .display-1 {
+        font-size: 2.5rem;
+      }
+
+      .display-4 {
+        font-size: 1.75rem;
+      }
+
+      #hero {
+        height: 60vh;
+      }
+
+      @media (max-width: 576px) {
       }
     </style>
   </head>
@@ -202,7 +203,6 @@
       </p>
       <div class="card px-4 py-4 mx-5 rounded-4 shadow-lg border-dark">
         <div class="simply-countdown mt-2">
-          <!-- <div class="line-above"></div> -->
           <h2 class="text-start">
             <strong>1 Desember, 2024</strong>
           </h2>
@@ -258,7 +258,6 @@
           <strong>Konfirmasi kehadiran</strong>
         </h2>
         <hr />
-        <!-- RVSP form -->
         <form
           class="text-start fw-bold"
           action="your_submission_url"
